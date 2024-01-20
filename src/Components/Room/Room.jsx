@@ -22,7 +22,7 @@ function Room() {
       container: element,
       sharedLinks:[{
           name:"COPY LINK",
-          url:`http://localhost:5173/Live-vedio-call/${id}`
+          url:`https://live-streaming-app-two.vercel.app/Live-vedio-call/${id}`
       }],
       scenario: {
         mode: ZegoUIKitPrebuilt.LiveStreaming,
